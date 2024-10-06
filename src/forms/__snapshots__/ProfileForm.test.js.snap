@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Profile col-md-5 offset-md-4 col-lg-4 offset-lg-4 mt-3"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h1>
+          Profile
+        </h1>
+        <form
+          class="ProfileForm-form"
+        >
+          <label
+            class="ProfileForm-Label"
+            for="username"
+          >
+            Username
+          </label>
+          <p>
+            @testuser
+          </p>
+          <label
+            class="ProfileForm-Label"
+            for="firstName"
+          >
+            First Name
+          </label>
+          <input
+            class="ProfileForm-Input form-control"
+            id="firstName"
+            name="firstName"
+            placeholder="First Name"
+            type="text"
+            value="Test"
+          />
+          <label
+            class="ProfileForm-Label"
+            for="lastName"
+          >
+            Last Name
+          </label>
+          <input
+            class="ProfileForm-Input form-control"
+            id="lastName"
+            name="lastName"
+            placeholder="Last Name"
+            type="text"
+            value="User"
+          />
+          <label
+            class="ProfileForm-Label"
+            for="email"
+          >
+            Email
+          </label>
+          <input
+            class="ProfileForm-Input form-control"
+            id="email"
+            name="email"
+            placeholder="Email"
+            type="text"
+            value="testuser@gmail.com"
+          />
+          <label
+            class="ProfileForm-Label"
+            for="password"
+          >
+            Confirm password to make changes:
+          </label>
+          <input
+            class="ProfileForm-Input form-control"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required=""
+            type="password"
+            value=""
+          />
+          <span
+            class="ProfileForm-message"
+          />
+          <button
+            class="btn btn-lg btn-block btn btn-outline-primary"
+            type="submit"
+          >
+            Save Changes
+          </button>
+        </form>
+      </div>
+    </div>
+    <div
+      class="Expand text-center"
+    >
+      <button
+        class="btn-sm m-3 btn btn-info"
+        type="button"
+      >
+        Show Applied Jobs
+      </button>
+    </div>
+    <div
+      class="Delete text-center"
+    >
+      <button
+        class="btn btn-link my-5"
+        style="color: red;"
+      >
+        Delete my profile
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

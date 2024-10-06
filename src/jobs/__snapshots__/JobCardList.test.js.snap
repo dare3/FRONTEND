@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobCardList matches snapshot 1`] = `
+<div>
+  <div
+    class="JobCardList"
+  >
+    <div
+      class="JobCard mb-3 card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="card-title"
+        >
+          Software Engineer
+        </h5>
+         
+        <h6>
+          Acme
+        </h6>
+        <p
+          class="card-text"
+        >
+          Salary: 
+          120000
+        </p>
+        <p
+          class="card-text"
+        >
+          Equity: 
+          0.01
+        </p>
+        <button
+          class="font-weight-bold text-uppercase float-right btn btn-danger"
+          type="button"
+        >
+          Apply
+        </button>
+      </div>
+    </div>
+    <div
+      class="JobCard mb-3 card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="card-title"
+        >
+          Product Manager
+        </h5>
+         
+        <h6>
+          Globex
+        </h6>
+        <p
+          class="card-text"
+        >
+          Salary: 
+          150000
+        </p>
+        <p
+          class="card-text"
+        >
+          Equity: 
+          0.005
+        </p>
+        <button
+          class="font-weight-bold text-uppercase float-right btn btn-danger"
+          type="button"
+        >
+          Apply
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

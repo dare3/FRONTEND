@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders LoginForm correctly 1`] = `
+<div>
+  <div
+    class="LoginForm col-md-5 offset-md-4 col-lg-4 offset-lg-4"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h1>
+          Log In
+        </h1>
+        <form
+          class=""
+        >
+          <label
+            class=""
+            for="username"
+          >
+            Username
+          </label>
+          <input
+            class="form-control"
+            name="username"
+            placeholder="Username"
+            required=""
+            type="text"
+            value=""
+          />
+          <label
+            class=""
+            for="password"
+          >
+            Password
+          </label>
+          <input
+            class="form-control"
+            name="password"
+            placeholder="Password"
+            required=""
+            type="text"
+            value=""
+          />
+          <span
+            class="NewItemForm-message"
+          >
+            <p />
+          </span>
+          <button
+            class="btn btn-lg btn-block btn btn-primary"
+            type="submit"
+          >
+            Login
+          </button>
+        </form>
+      </div>
+    </div>
+    <p
+      class="mt-3"
+    >
+      To explore and test out the features, feel free to log in using the username 'testuser' and the password 'password'.
+    </p>
+  </div>
+</div>
+`;

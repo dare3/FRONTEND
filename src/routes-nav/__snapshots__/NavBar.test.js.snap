@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar component matches snapshot for logged in user 1`] = `
+<div>
+  <nav
+    class="NavBar navbar navbar-expand-md mb-5"
+  >
+    <a
+      class="navbar-brand"
+      href="/"
+    >
+      Jobly
+    </a>
+    <ul
+      class="navbar-nav ml-auto"
+    >
+      <li
+        class="nav-item mr-4"
+      >
+        <a
+          class="nav-link"
+          href="/companies"
+        >
+          Companies
+        </a>
+      </li>
+      <li
+        class="nav-item mr-4"
+      >
+        <a
+          class="nav-link"
+          href="/jobs"
+        >
+          Jobs
+        </a>
+      </li>
+      <li
+        class="nav-item mr-4"
+      >
+        <a
+          class="nav-link"
+          href="/profile"
+        >
+          Profile
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+          href="/"
+        >
+          Log out 
+          Test
+        </a>
+      </li>
+    </ul>
+  </nav>
+   
+</div>
+`;
+
+exports[`NavBar component matches snapshot for logged out user 1`] = `
+<div>
+  <nav
+    class="NavBar navbar navbar-expand-md mb-5"
+  >
+    <a
+      class="navbar-brand"
+      href="/"
+    >
+      Jobly
+    </a>
+    <ul
+      class="navbar-nav ml-auto"
+    >
+      <li
+        class="nav-item mr-4"
+      >
+        <a
+          class="nav-link"
+          href="/login"
+        >
+          Login
+        </a>
+      </li>
+      <li
+        class="nav-item mr-4"
+      >
+        <a
+          class="nav-link"
+          href="/signup"
+        >
+          Sign Up
+        </a>
+      </li>
+    </ul>
+  </nav>
+   
+</div>
+`;
